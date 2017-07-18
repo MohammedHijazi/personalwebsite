@@ -1,0 +1,97 @@
+body{
+		background: grey;
+	}
+
+
+
+	.nav_bar{
+		border: solid 10px;
+		padding: 20px;
+	}
+
+	.nav_bar li{ 
+		padding: 6px;
+		display: inline-block ;
+		font-size: 25px;
+	}
+
+	.nav_bar li:hover{
+		background-color: blue;
+
+
+	}
+
+
+	.slides{
+		background: white;
+		border: solid 10px;
+		margin:120px;
+		height:80%;
+		width:80%;
+	}
+
+	.one{
+		display: inline-block;
+		border: solid 10px;
+		width: 95%;
+		height: 300px;
+		margin: 10px;
+		background-image: url("../images/steam.jpg");
+		background-size: 100% 100%;
+	}
+
+	.trend{
+		color: gray;
+		font-size: 20px;
+	}
+
+
+	.two{
+		display: inline-block;
+		border: solid 10px;
+		width: 45.5%;
+		height: 400px;
+		margin: 10px;
+	}
+
+
+	.three{
+		display: inline-block;
+		border: solid 10px;
+		width: 45.5%;
+		height: 400px;
+		margin: 10px;
+		background-image:url(../images/bestphoto.jpg);
+		background-size:100% 100% ;
+	}
+
+
+	.aboutme {
+		padding: 10px;
+		border: solid 10px;
+		margin: 10px;
+		height: 400px;
+	}
+
+	.aboutme h1 {
+		text-align: center;
+	}
+	.aboutme p {
+		display: inline-block; 
+		margin: 10px;
+		border: solid 10px;
+		width: 300px;
+		text-align: center;
+		height: 200px;
+		vertical-align: text-bottom;
+
+
+	}
+
+	.aboutme img {
+		display: inline-block; 
+		border:solid 10px;
+		background-size: 100% 100% ;
+		margin: 10px;
+	}
+
