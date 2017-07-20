@@ -1,0 +1,38 @@
+<!Doctype>
+
+
+
+{% extends "layout.html" %}
+
+
+{%block head%}
+
+<link rel="stylesheet" type="text/css" href="../static/stylesheets/contact.css">
+
+{%endblock%}
+
+
+
+
+
+
+{%block body%}
+
+<div class="message">
+	<form action="{{ url_for('form_res') }}" method="post" >
+		First Name:<br>
+		<input type="text" name="firstname"><br> 
+		Last Name:<br>
+		<input type="text" name="lastname"><br>
+		Message:<br>
+		<textarea class="me" type="text" name="message"> </textarea><br>
+		<input type="submit" name="login">
+		<input class="gen" type="radio" name="gender" value="male" checked> Male<br>
+		<input class="gen" type="radio" name="gender" value="female"> Female<br>
+		<input class="gen" type="radio" name="gender" value="other"> Other
+	</form>
+	
+
+
+</div>
+{%endblock%}

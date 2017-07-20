@@ -82,13 +82,15 @@ body{
 		border: solid 10px;
 		width: 300px;
 		text-align: center;
-		height: 200px;
+		height: 250px;
 		vertical-align: text-bottom;
 
 
 	}
 
 	.aboutme img {
+		height: 250px;
+		width: auto;
 		display: inline-block; 
 		border:solid 10px;
 		background-size: 100% 100% ;

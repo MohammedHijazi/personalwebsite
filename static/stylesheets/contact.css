@@ -1,0 +1,40 @@
+h1{
+	text-align: center;
+}
+
+body{
+	background-color: grey;
+}
+
+.message{
+	display: inline-block;
+	border: solid 10px;
+	height: 400px;
+
+}
+
+form{
+	display: inline-block;
+	width: 250px;
+	margin: 20px;
+	padding: 10px;
+	border: solid 10px;
+}
+
+
+
+
+
+.me{
+	display: inline-block;
+	width: 250px;
+	height: 200px;
+	font-size: 13px;
+}
+
+.gen{
+	display: inline-block;
+	border: solid 10px;
+	vertical-align: text-bottom;
+	height:250px;
+}
