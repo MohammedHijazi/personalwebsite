@@ -7,9 +7,8 @@ body{
 }
 
 .message{
-	display: inline-block;
 	border: solid 10px;
-	height: 400px;
+	height: 500px;
 
 }
 
@@ -18,7 +17,7 @@ form{
 	width: 250px;
 	margin: 20px;
 	padding: 10px;
-	border: solid 10px;
+
 }
 
 
@@ -27,14 +26,13 @@ form{
 
 .me{
 	display: inline-block;
+	display: inline-block;
 	width: 250px;
 	height: 200px;
 	font-size: 13px;
 }
 
+
 .gen{
 	display: inline-block;
-	border: solid 10px;
-	vertical-align: text-bottom;
-	height:250px;
 }
